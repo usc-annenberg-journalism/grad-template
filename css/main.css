@@ -1,0 +1,234 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  color: #333;
+  background: #efefef; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif; }
+
+a {
+  color: #999;
+  text-decoration: none; }
+
+a:hover {
+  color: #666; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto; }
+
+header {
+  background: #111;
+  padding: 0.2em; }
+  header a {
+    color: #fff; }
+
+nav {
+  text-align: center; }
+  nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: inline-block; }
+  nav li {
+    float: left; }
+  nav a {
+    display: block;
+    padding: 0.5em 2em;
+    font-family: "Merriweather", serif;
+    font-size: 1.1em; }
+  nav a:hover {
+    color: #cfcfcf; }
+
+#main {
+  background: #fff;
+  margin-top: -0.5em;
+  padding-bottom: 3em; }
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9em; }
+
+/* responsive menu */
+.menu-toggle {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.2em;
+  text-align: center;
+  cursor: pointer; }
+
+/* typography, i suppose */
+.headline {
+  font-size: 2.2em;
+  text-align: center;
+  padding: 0 2em;
+  margin-top: 1.4em;
+  font-weight: 600; }
+
+.subhead {
+  text-align: center;
+  font-weight: 300;
+  font-style: italic; }
+
+.byline {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: bold; }
+
+.caption {
+  margin-top: 0.2em;
+  margin-bottom: 2em;
+  font-size: 0.9em;
+  font-style: italic; }
+
+.dropcap {
+  font-family: "Merriweather", serif;
+  font-size: 5em;
+  float: left;
+  line-height: 0.9;
+  margin-right: 0.05em; }
+
+/* so many rules */
+hr {
+  border-color: #333;
+  border-style: solid; }
+
+.short, .quote {
+  margin: 1.3em auto;
+  width: 10%; }
+
+.quote {
+  width: 30%; }
+
+/* pullquotes */
+blockquote {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-size: 1.5em; }
+  blockquote p {
+    margin: 0.3em 0; }
+  blockquote .attribution {
+    font-size: 0.6em;
+    margin: 1em 0;
+    font-style: normal;
+    font-weight: 300; }
+
+.quote-hr {
+  font-size: 2em;
+  position: relative;
+  height: 1em;
+  overflow: hidden;
+  margin-bottom: 0; }
+  .quote-hr span {
+    padding: 0 0.2em;
+    line-height: 0;
+    background: #fff;
+    position: relative;
+    z-index: 10; }
+  .quote-hr hr {
+    position: absolute;
+    margin: 0 auto;
+    top: 0.35em;
+    left: 0;
+    right: 0; }
+
+/* floats for photo/media */
+.left-media {
+  margin-right: 2em; }
+
+.right-media {
+  margin-left: 2em;
+  float: right; }
+
+/* slideshow */
+.cycle-slideshow .slide {
+  width: 100%; }
+.cycle-slideshow .caption {
+  margin-bottom: 0.5em; }
+.cycle-slideshow .cycle-pager {
+  text-align: center; }
+  .cycle-slideshow .cycle-pager span {
+    text-indent: -9999em;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    margin: 5px 7px;
+    background: #333;
+    cursor: pointer;
+    opacity: 0.5; }
+  .cycle-slideshow .cycle-pager .cycle-pager-active {
+    opacity: 1; }
+
+/* owl carousel */
+#carousel .owl-item div {
+  margin: 0.5em; }
+#carousel h4 {
+  margin-top: 0.3em;
+  margin-bottom: 0.1em;
+  font-size: 1.1em; }
+#carousel h4 + p {
+  margin-top: 0.2em; }
+
+/* infoboxes */
+.infobox {
+  background: #efefef;
+  margin-bottom: 1em !important; }
+
+.number, .circle {
+  font-family: "Merriweather", serif;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  margin: 0.3em auto; }
+
+.circle {
+  color: #fff;
+  background: #333;
+  border-radius: 50%;
+  height: 2.5em;
+  width: 2.5em;
+  line-height: 2.5em; }
+
+/* other classes */
+.full-width {
+  width: 100%;
+  height: auto; }
+
+.clear {
+  clear: both; }
+
+img.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px; }
+
+img.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px; }
+
+img.aligncenter {
+  display: block;
+  margin: 0 auto; }
+
+/* responsive stuff */
+@media screen and (max-width: 600px) {
+  .headline {
+    padding: 0 1em; }
+
+  nav li {
+    float: none; } }
+@media screen and (max-width: 480px) {
+  .left-media, .right-media {
+    margin: 0; } }
